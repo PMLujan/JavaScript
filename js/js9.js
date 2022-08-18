@@ -12,3 +12,11 @@ console.log(producto);
 console.log(producto.precio);//opcion mas usada
 
 console.log(producto["nombreProducto"]);
+
+//agregar propiedades a los objetos
+
+producto.imagen="imagen.jpg";
+
+//eliminar propiedades de objetos
+
+delete producto.precio;
