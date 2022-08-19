@@ -29,8 +29,18 @@ console.log(carrito);
 
 //SOME :es el mejor para iterar en un array con objetos
 
-let resultado = carrito.some(function(producto){
-    return producto.nombre === "Celular"
-});
+// let resultado = carrito.some(function(producto){
+//     return producto.nombre === "Celular"
+// });
 
-console.log(resultado)
+// console.log(resultado)
+
+//REDUCE
+//    const resultado= carrito.reduce(function(total,producto){
+//                     return total + producto.precio
+//                     }, 0);
+
+//FILTER
+//     const resultado= carrito.filter(function(producto){
+//                       return producto.precio > 400
+//                       });
